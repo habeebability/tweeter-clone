@@ -11,9 +11,11 @@
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.6.6",
     "@types/node": "^18",
-    "nuxt": "^3.4.2"
+    "nuxt": "^3.4.2",
+    "prisma": "^4.13.0"
   },
   "dependencies": {
-    "@heroicons/vue": "^2.0.17"
+    "@heroicons/vue": "^2.0.17",
+    "@prisma/client": "^4.13.0"
   }
 }
