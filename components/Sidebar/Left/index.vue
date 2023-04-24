@@ -58,7 +58,7 @@
       <SidebarLeftTab>
         <template v-slot:icon>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" width="28" height="28">
-            <circle cx="14" cy="14" r="12" fill="black" stroke="currentColor" />
+            <circle cx="14" cy="14" r="12" fill="none" stroke="currentColor" />
             <circle cx="7" cy="14" r="2" fill="currentColor" />
             <circle cx="14" cy="14" r="2" fill="currentColor" />
             <circle cx="21" cy="14" r="2" fill="currentColor" />

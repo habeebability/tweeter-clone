@@ -1,5 +1,6 @@
 // import {sendError} from "h3";
 import { createUser } from "../../db/users.js";
+import { userTransformer } from "~/server/transformers/user.js";
 
 export default defineEventHandler(async (event) => {
   const body = await readBody(event);
@@ -31,11 +32,12 @@ export default defineEventHandler(async (event) => {
     email,
     password,
     name,
+    profileImage: "https://i.imgur.com/8Q9QY7C.png",
   };
 
   const user = await createUser(userData);
 
   return {
-    body: user,
+    body: userTransformer(user),
   };
 });

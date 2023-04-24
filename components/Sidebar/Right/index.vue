@@ -61,12 +61,12 @@ const whoToFollowItems = ref([
   {
     name: "Joe Biden",
     handle: "@JoeBiden",
-    image: "https://picsum.photos/200/300",
+    image: "https://placebeard.it/640x360",
   },
   {
     name: "Barack Obama",
     handle: "@BarackObama",
-    image: "https://picsum.photos/200/300",
+    image: "https://placebeard.it/640x360",
   },
   {
     name: "Jack Ma",
